@@ -1,0 +1,32 @@
+/*SCROLL*/
+@-webkit-keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+
+/*ROTATE*/
+@-webkit-keyframes rotate {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(-360deg);
+    }
+}
